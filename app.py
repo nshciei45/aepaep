@@ -1,12 +1,12 @@
-!pip install -q streamlit
+# !pip install -q streamlit
 import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
 from datetime import datetime
-!npm install localtunnel
-!streamlit run app.py &>/content/logs.txt &
-!npx localtunnel --port 8501
+# !npm install localtunnel
+# !streamlit run app.py &>/content/logs.txt &
+# !npx localtunnel --port 8501
 
 
 # --- CONFIG & STYLING ---
