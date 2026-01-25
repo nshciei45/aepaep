@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 # import plotly.express as px
-import plotly as px
+# import plotly as px
 from datetime import datetime
 # !npm install localtunnel
 # !streamlit run app.py &>/content/logs.txt &
