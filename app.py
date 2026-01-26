@@ -12,7 +12,7 @@ from datetime import datetime
 
 # --- CONFIG & STYLING ---
 st.set_page_config(page_title="Elevator AEP Predictor", layout="wide")
-st.title("🏙️ Elevator Typicality Predictor")
+st.title("Elevator Position Predictor")
 st.markdown("Using the **Asymptotic Equipartition Property (AEP)** to predict floor locations.")
 
 # --- DATA ENGINE ---
