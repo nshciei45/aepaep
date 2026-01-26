@@ -9,6 +9,11 @@ from datetime import datetime
 # !streamlit run app.py &>/content/logs.txt &
 # !npx localtunnel --port 8501
 
+import os
+
+# Set the timezone environment variable
+os.environ['TZ'] = 'Asia/Rangoon'
+
 
 # --- CONFIG & STYLING ---
 st.set_page_config(page_title="Elevator AEP Predictor", layout="wide")
