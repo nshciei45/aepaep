@@ -83,13 +83,13 @@ with col3:
     st.metric("Hour Entropy (H)", f"{result['Entropy']:.2f} bits")
 
 # --- VISUALIZATION ---
-st.divider()
-st.subheader("Daily Typical Path")
-# Step chart of the typical path
-fig = px.line(model_df, x='Hour', y='Typical_Floor', hover_data=['Minute', 'Confidence'],
-              title="Most Typical Floor Throughout the Day", markers=True, line_shape="hv")
-fig.update_yaxes(tick0=0, dtick=1)
-st.plotly_chart(fig, use_container_width=True)
+# st.divider()
+# st.subheader("Daily Typical Path")
+# # Step chart of the typical path
+# fig = px.line(model_df, x='Hour', y='Typical_Floor', hover_data=['Minute', 'Confidence'],
+#               title="Most Typical Floor Throughout the Day", markers=True, line_shape="hv")
+# fig.update_yaxes(tick0=0, dtick=1)
+# st.plotly_chart(fig, use_container_width=True)
 
 # Advice Box
 st.info(f"**Live Advice:** At {target_hour}:{target_minute:02d}, the elevator is " + 
