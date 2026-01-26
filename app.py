@@ -14,6 +14,10 @@ import os
 # Set the timezone environment variable
 os.environ['TZ'] = 'Asia/Rangoon'
 
+# This updates the C-level timezone settings that Python uses
+import time
+time.tzset()
+
 
 # --- CONFIG & STYLING ---
 st.set_page_config(page_title="Elevator AEP Predictor", layout="wide")
