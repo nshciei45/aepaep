@@ -96,6 +96,6 @@ st.info(f"**Live Advice:** At {target_hour}:{target_minute:02d}, the elevator is
         ("likely idling. You should probably walk." if result['Entropy'] < 0.5 else "moving frequently. It's worth waiting!"))
 
 # --- DATA SOURCE TABLE ---
-with st.expander("View Underlying Typicality Model"):
-    st.dataframe(model_df)
+# with st.expander("View Underlying Typicality Model"):
+#     st.dataframe(model_df)
 
