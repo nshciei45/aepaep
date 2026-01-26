@@ -93,7 +93,7 @@ with col3:
 
 # Advice Box
 st.info(f"**Live Advice:** At {target_hour}:{target_minute:02d}, the elevator is " + 
-        ("likely idling." if result['Entropy'] < 0.5 else "moving frequently."))
+        ("likely idling." if result['Entropy'] < 1.0 else "moving frequently."))
 
 # --- DATA SOURCE TABLE ---
 # with st.expander("View Underlying Typicality Model"):
