@@ -82,7 +82,7 @@ with col2:
 with col3:
     st.metric("Hour Entropy (H)", f"{result['Entropy']:.2f} bits")
 
---- VISUALIZATION ---
+# --- VISUALIZATION ---
 st.divider()
 st.subheader("Daily Typical Path")
 # Step chart of the typical path
