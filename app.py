@@ -97,7 +97,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 
 
---- DATA SOURCE TABLE ---
+# --- DATA SOURCE TABLE ---
 with st.expander("View Underlying Typicality Model"):
     st.dataframe(model_df)
 
