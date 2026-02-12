@@ -20,8 +20,8 @@ time.tzset()
 
 
 # --- CONFIG & STYLING ---
-st.set_page_config(page_title="Elevator AEP Predictor", layout="wide")
-st.title("Elevator Position Predictor")
+st.set_page_config(page_title="AepAep", layout="wide")
+st.title("AepAep")
 st.markdown("Using the **Asymptotic Equipartition Property (AEP)** to predict floor locations.")
 
 # --- DATA ENGINE ---
@@ -97,7 +97,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 
 
-# --- DATA SOURCE TABLE ---
-# with st.expander("View Underlying Typicality Model"):
-#     st.dataframe(model_df)
+--- DATA SOURCE TABLE ---
+with st.expander("View Underlying Typicality Model"):
+    st.dataframe(model_df)
 
