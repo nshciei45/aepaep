@@ -20,8 +20,8 @@ time.tzset()
 
 
 # --- CONFIG & STYLING ---
-st.set_page_config(page_title="Elevator Position Predictor", layout="wide")
-st.title("AepAep")
+st.set_page_config(page_title="AepAep", layout="wide")
+st.title("Elevator Position Predictor")
 st.markdown("Using the **Asymptotic Equipartition Property (AEP)** to predict floor locations.")
 
 # --- DATA ENGINE ---
